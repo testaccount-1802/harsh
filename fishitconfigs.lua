@@ -14,6 +14,10 @@ return function(ctx)
         Feedback = true,
         Credits = true,
     }
+    
+    Configs.FishConfig = {
+        Enabled - true,
+    }
 
     Configs.WebhookConfig = {
         Enabled = true,
@@ -521,7 +525,7 @@ return function(ctx)
         { key = "Home", label = "Home", icon = "house" },
         { key = "Main", label = "Main", icon = "menu" },
         { key = "Player", label = "Player", icon = "circle-user" },
-        { key = "Combat", label = "Fish", icon = "fish" },
+        { key = "Fish", label = "Fish", icon = "fish" },
         { key = "ESP", label = "ESP", icon = "eye" },
         { key = "Auto", label = "Auto", icon = "bot" },
         { key = "Misc", label = "Misc", icon = "archive" },
@@ -531,6 +535,7 @@ return function(ctx)
 
     Configs.ModuleDefinitions = {
         { key = "Home", label = "Home", tab = "Home", config = Configs.HomeConfig },
+        { key = "Fish", label = "Fish", tab = "Fish", config = Configs.FishConfig },
         { key = "Webhooks", label = "Webhooks", tab = "Home", config = Configs.WebhookConfig },
         { key = "Teleports", label = "Teleports", tab = "Main", config = Configs.TeleportsConfig },
         { key = "AutoPrompt", label = "Auto Prompt", tab = "Main", config = Configs.AutoPromptConfig },
