@@ -543,8 +543,6 @@ return function(ctx)
         { key = "Movement", label = "Movement", tab = "Player", config = Configs.MovementConfig },
         { key = "PlayerUtils", label = "Player Utils", tab = "Player", config = Configs.PlayerUtilsConfig },
         { key = "Visuals", label = "Visuals", tabs = { "Player", "ESP" }, config = Configs.VisualsConfig },
-        { key = "AutoParry", label = "Auto Parry", tab = "Combat", config = Configs.AutoParryConfig },
-        { key = "Aimbot", label = "Aimbot", tab = "Combat", config = Configs.AimbotConfig },
         {
             key = "ESP",
             label = "ESP",
