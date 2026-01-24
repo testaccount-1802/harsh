@@ -14,9 +14,9 @@ return function(ctx)
         Feedback = true,
         Credits = true,
     }
-    
+
     Configs.FishConfig = {
-        Enabled - true,
+        Enabled - true
     }
 
     Configs.WebhookConfig = {
