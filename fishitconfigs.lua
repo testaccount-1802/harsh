@@ -521,7 +521,7 @@ return function(ctx)
         { key = "Home", label = "Home", icon = "house" },
         { key = "Main", label = "Main", icon = "menu" },
         { key = "Player", label = "Player", icon = "circle-user" },
-        { key = "Fish", label = "Fish", icon = "fish" },
+        { key = "Combat", label = "Fish", icon = "fish" },
         { key = "ESP", label = "ESP", icon = "eye" },
         { key = "Auto", label = "Auto", icon = "bot" },
         { key = "Misc", label = "Misc", icon = "archive" },
