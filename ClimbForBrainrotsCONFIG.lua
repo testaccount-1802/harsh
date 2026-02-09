@@ -83,6 +83,7 @@ return function(ctx)
         },
     }
 
+
     Configs.MovementConfig = {
         Enabled = true,
         ClickToTp = true,
@@ -135,7 +136,7 @@ return function(ctx)
         Enabled = true,
         NoClip = true,
         Desync = true,
-        AutoUseTool = true,
+        AutoUseTool = false,
         PerformanceMode = true,
         RemoveKillBricks = true,
         ModSafety = true,
@@ -195,7 +196,7 @@ return function(ctx)
                 },
             },
             Freecam = {
-                Enabled = true,
+                Enabled = false,
                 Sensitivity = {
                     Enabled = true,
                     Min = 0.1,
