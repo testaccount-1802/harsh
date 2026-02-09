@@ -15,6 +15,10 @@ return function(ctx)
         Credits = true,
     }
 
+    Configs.BrainrotConfig = {
+        Enabled = true,
+    }
+
     Configs.WebhookConfig = {
         Enabled = true,
         Events = {
@@ -521,7 +525,7 @@ return function(ctx)
         { key = "Home", label = "Home", icon = "house" },
         { key = "Main", label = "Main", icon = "menu" },
         { key = "Player", label = "Player", icon = "circle-user" },
-        { key = "Combat", label = "Combat", icon = "swords" },
+        { key = "Brainrot", label = "Brainrot", icon = "coffee" },
         { key = "ESP", label = "ESP", icon = "eye" },
         { key = "Auto", label = "Auto", icon = "bot" },
         { key = "Misc", label = "Misc", icon = "archive" },
@@ -531,6 +535,7 @@ return function(ctx)
 
     Configs.ModuleDefinitions = {
         { key = "Home", label = "Home", tab = "Home", config = Configs.HomeConfig },
+        { key = "Brainrot", label = "Brainrot", tab = "Brainrot", config = Configs.BrainrotConfig },
         { key = "Webhooks", label = "Webhooks", tab = "Home", config = Configs.WebhookConfig },
         { key = "Teleports", label = "Teleports", tab = "Main", config = Configs.TeleportsConfig },
         { key = "AutoPrompt", label = "Auto Prompt", tab = "Main", config = Configs.AutoPromptConfig },
@@ -538,8 +543,6 @@ return function(ctx)
         { key = "Movement", label = "Movement", tab = "Player", config = Configs.MovementConfig },
         { key = "PlayerUtils", label = "Player Utils", tab = "Player", config = Configs.PlayerUtilsConfig },
         { key = "Visuals", label = "Visuals", tabs = { "Player", "ESP" }, config = Configs.VisualsConfig },
-        { key = "AutoParry", label = "Auto Parry", tab = "Combat", config = Configs.AutoParryConfig },
-        { key = "Aimbot", label = "Aimbot", tab = "Combat", config = Configs.AimbotConfig },
         {
             key = "ESP",
             label = "ESP",
