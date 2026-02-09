@@ -16,7 +16,7 @@ return function(ctx)
     }
 
     Configs.BrainrotConfig = {
-        Enabled = true,
+        Enabled = true
     }
 
     Configs.WebhookConfig = {
