@@ -83,26 +83,6 @@ return function(ctx)
         },
     }
 
-    Configs.InstakillConfig = {
-        Enabled = true,
-        IKRange = {
-            Enabled = true,
-            Min = 10,
-            Max = 10000,
-            Default = 150,
-        },
-        IKThreshold = {
-            Enabled = true,
-            Min = 0,
-            Max = 100,
-            Default = 30,
-        },
-        Dev = {
-            Step = 0.12,
-            Tooltip = "This ONLY works on mobs NOT players, and only sometimes.",
-        },
-    }
-
     Configs.MovementConfig = {
         Enabled = true,
         ClickToTp = true,
@@ -230,64 +210,6 @@ return function(ctx)
 
     Configs.SaveManagerConfig = {
         WebConfigs = {},
-    }
-
-    Configs.AutoParryConfig = {
-        Enabled = true,
-        DefaultPreset = "Custom Config",
-        Presets = {
-            {
-                Name = "Custom Config",
-                File = "AP_Config.json",
-                ExtraFile = "AP_Config_Extra.json",
-                Default = true,
-            },
-            {
-                Name = "Encrypted Test",
-                EncryptedUrl = "https://raw.githubusercontent.com/whodunitwww/cerberus-helpers/refs/heads/main/template/test/AP_Config.json",
-            },--[[
-            {
-                Name = "drey/e Config",
-                Url = "https://raw.githubusercontent.com/whodunitwww/noxhelpers/refs/heads/main/devilhunter/drey-e%20config.txt",
-                PaidKey = "a78w4bwx98xja9tm",
-                PurchaseUrl = "https://discord.com/channels/1349561505548599367/1461924912297017650/1461924912297017650",
-            },]]
-        },
-        DefaultConfig = {
-            ["17030773401"] = {
-                name = "Zombie Attack",
-                startSec = 0.42,
-                hold = 0.30,
-                rollOnFail = true,
-                distanceAdj = 0,
-            },
-        },
-        DefaultExtra = {
-            parryKey = "F",
-            rollKey = "Q",
-        },
-    }
-
-    Configs.AimbotConfig = {
-        Enabled = true,
-        Defaults = {
-            AimbotEnabled = false,
-            AimKey = "Q",
-            FOV = 100,
-            FOVColor = Color3.fromRGB(255, 255, 255),
-            FOVCircleVisible = false,
-            FOVFilled = false,
-            FOVTransparency = 1,
-            Smoothness = 0.5,
-            Prediction = 0,
-            DropCompensation = 0,
-            TargetParts = { "Head" },
-            BodyChance = 0,
-            TargetTypes = { "Enemy Players" },
-            WallCheck = false,
-            MobileAutoAim = false,
-            ShowAimLine = false,
-        },
     }
 
     Configs.ESPConfig = {
