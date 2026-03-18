@@ -531,7 +531,7 @@ return function(ctx)
 
     Configs.ModuleDefinitions = {
         { key = "Home", label = "Home", tab = "Home", config = Configs.HomeConfig },
-        { key = "Sailor Piece", label = "Sailor Piece," tab = "Sailor Piece", config = Configs.SailorConfig },
+        { key = "Sailor Piece", label = "Sailor Piece", tab = "Sailor Piece", config = Configs.SailorConfig },
         { key = "Webhooks", label = "Webhooks", tab = "Home", config = Configs.WebhookConfig },
         { key = "Teleports", label = "Teleports", tab = "Main", config = Configs.TeleportsConfig },
         { key = "AutoPrompt", label = "Auto Prompt", tab = "Main", config = Configs.AutoPromptConfig },
